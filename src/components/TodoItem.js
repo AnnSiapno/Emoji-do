@@ -14,9 +14,9 @@ export default function TodoItem({
                 onChange={ onToggleComplete }
             />
             <input
-              type='text'
-              value={ description }
-              onChange={ onChangeDescription }
+                type='text'
+                value={ description }
+                onChange={ onChangeDescription }
             />
         </div>
     )

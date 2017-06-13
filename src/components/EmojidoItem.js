@@ -1,9 +1,9 @@
 import React from 'react'
 
 const buttonStyle = {
-  fontSize: '2rem',
-  background: 'none',
-  border: 'none'
+    fontSize: '2rem',
+    border: 'none',
+    background: 'none'
 }
 
 export default function EmojidoItem({
@@ -15,13 +15,13 @@ export default function EmojidoItem({
     return (
         <div>
             <button
-              style = { buttonStyle }
-              onClick={ onToggleComplete }
-            >{ completed ? '👍' : '❌' }</button>
+                style={ buttonStyle }
+                onClick={ onToggleComplete }
+            >{ completed ? '😻' : '😺' }</button>
             <input
-              type='text'
-              value={ description }
-              onChange={ onChangeDescription }
+                type='text'
+                value={ description }
+                onChange={ onChangeDescription }
             />
         </div>
     )
