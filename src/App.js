@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import TodoItem from './components/TodoItem'
+//import TodoItem from './components/TodoItem'
+import TodoItem from './components/EmojidoItem'
 
 class App extends Component {
   state = {
@@ -15,13 +16,6 @@ class App extends Component {
       }
     ]
   }
-
-  // 1. User interaction
-  // 2. Browser event
-  // 3. Action handler
-  // 4. Changes the state
-  // 5. Rerenders our app
-  // 6. Users see the updated user interface
 
   handleToggleCompleteItem = (index) => {
     this.setState((prevState) => {
